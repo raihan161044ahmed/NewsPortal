@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI';
+}
+html,
+body {
+  overflow-x: hidden;
+  background-color: var(--primary-color);
+}
+
+/*-----navbar---------*/
+.navbar .navbar-nav .nav-link {
+  color: var(--secondary-color);
+}
+.navbar {
+  background-color: var(--primary-color);
+  font-size: 1em;
+  display: flex;
+  height: 70px;
+}
+.navbar-toggler {
+  border-color: var(--secondary-color);
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  background-color: grey;
+  color: var(--primary-color);
+}
+/* Animation */
+.animate {
+  padding: 0px 10px 0px 0px;
+  transition: all ease 1s;
+}
+
+/* Jumbotron */
+.jumbotron {
+  margin-top: 50px;
+}
+
+/*-----------home------------*/
+.chome {
+  height: 60vh;
+  background-image: url(image/bg.jpg);
+  background-size: cover;
+  margin-top: 50px;
+}
+
+.text-box {
+  position: absolute;
+  top: 200px;
+  margin-left: 90px;
+}
+.text-box p {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+.text-box h3 {
+  font-weight: bolder;
+  font-size: 40px;
+}
+/********************** about **************************/
+
+/********************** skills *********** project***********hover***********/
+.img-thumbnail:hover,
+.card-img-top:hover,
+.navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+/******************** footer ***********************/
+
+.grad {
+  background: var(--foot);
+}
+.input-group textarea {
+  height: 100px;
+  border: 2px solid var(--secondary-color);
+  text-align: justify;
+}
+
+/***************theme***************/
+
+#icon {
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+}
+#icon:hover {
+  background-color: var(--secondary-color);
+}
+:root {
+  --primary-color: white;
+  --secondary-color: #212121;
+  --foot: #eee;
+  --blackdifferent: #e8e8e8;
+}
+.dark-theme {
+  --primary-color: #000000;
+  --secondary-color: #ffffff;
+  --foot: #292929;
+  --blackdifferent: #404040;
+}
+
+.card-title,
+.card-text {
+  color: #000;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  color: var(--secondary-color);
+}
+.btn {
+  color: #000;
+  font-weight: bold;
+}
+span {
+  font-size: 1.1em;
+}
+
+.cabout,
+.cproject,
+.last {
+  background-color: var(--blackdifferent);
+}
+
+/******************carsoul************/
+.carousel-indicators {
+  bottom: 1px;
+}
+
+.text {
+  text-decoration: none;
+  color: inherit;
+  font-size: .8em;
+}
+ .card-img-top:hover {
+    transform: none;
+  }
